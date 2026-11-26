@@ -1,0 +1,385 @@
+[
+ {
+  "name": "TCS",
+  "slug": "tcs",
+  "emoji": "🏢",
+  "difficulty": "Easy",
+  "description": "India's largest IT services company. Hires in bulk through the TCS NQT.",
+  "pattern": [
+   "Online test (NQT): numerical, verbal and reasoning ability",
+   "Programming logic and coding questions (more for Digital / Prime roles)",
+   "Technical interview, managerial interview and HR interview",
+   "Commonly reported pattern. Patterns change every hiring season, so verify the latest on the official careers page."
+  ],
+  "papers": [
+   {
+    "title": "TCS NQT Style Mock 1",
+    "difficulty": "Easy",
+    "durationMinutes": 30,
+    "passMark": 50,
+    "offset": 0,
+    "mix": {
+     "Quantitative Aptitude": 6,
+     "Logical Reasoning": 5,
+     "Verbal Ability": 5,
+     "Programming": 4
+    }
+   },
+   {
+    "title": "TCS NQT Style Mock 2",
+    "difficulty": "Medium",
+    "durationMinutes": 30,
+    "passMark": 50,
+    "offset": 2,
+    "mix": {
+     "Quantitative Aptitude": 6,
+     "Logical Reasoning": 5,
+     "Verbal Ability": 4,
+     "Programming": 5
+    }
+   }
+  ]
+ },
+ {
+  "name": "Infosys",
+  "slug": "infosys",
+  "emoji": "💼",
+  "difficulty": "Medium",
+  "description": "Global IT consulting major with online assessments for campus and off-campus drives.",
+  "pattern": [
+   "Online assessment: quantitative, logical and verbal ability",
+   "Pseudocode / puzzle-solving and coding questions",
+   "Technical interview followed by HR interview",
+   "Commonly reported pattern. Patterns change every hiring season, so verify the latest on the official careers page."
+  ],
+  "papers": [
+   {
+    "title": "Infosys Online Assessment Mock 1",
+    "difficulty": "Medium",
+    "durationMinutes": 35,
+    "passMark": 50,
+    "offset": 0,
+    "mix": {
+     "Quantitative Aptitude": 5,
+     "Logical Reasoning": 5,
+     "Verbal Ability": 4,
+     "Programming": 5,
+     "Computer Science": 3
+    }
+   },
+   {
+    "title": "Infosys Online Assessment Mock 2",
+    "difficulty": "Medium",
+    "durationMinutes": 35,
+    "passMark": 50,
+    "offset": 3,
+    "mix": {
+     "Quantitative Aptitude": 5,
+     "Logical Reasoning": 6,
+     "Verbal Ability": 4,
+     "Programming": 4,
+     "Computer Science": 3
+    }
+   }
+  ]
+ },
+ {
+  "name": "Wipro",
+  "slug": "wipro",
+  "emoji": "🌐",
+  "difficulty": "Easy",
+  "description": "IT services and consulting company hiring through the National Level Talent Hunt style tests.",
+  "pattern": [
+   "Online aptitude test: quantitative, logical and verbal",
+   "Written communication (essay) section",
+   "Coding section",
+   "Technical and HR interviews",
+   "Commonly reported pattern. Patterns change every hiring season, so verify the latest on the official careers page."
+  ],
+  "papers": [
+   {
+    "title": "Wipro Aptitude Mock 1",
+    "difficulty": "Easy",
+    "durationMinutes": 25,
+    "passMark": 50,
+    "offset": 0,
+    "mix": {
+     "Quantitative Aptitude": 6,
+     "Logical Reasoning": 4,
+     "Verbal Ability": 5,
+     "Programming": 3
+    }
+   },
+   {
+    "title": "Wipro Aptitude Mock 2",
+    "difficulty": "Medium",
+    "durationMinutes": 25,
+    "passMark": 50,
+    "offset": 2,
+    "mix": {
+     "Quantitative Aptitude": 5,
+     "Logical Reasoning": 5,
+     "Verbal Ability": 5,
+     "Programming": 3
+    }
+   }
+  ]
+ },
+ {
+  "name": "Accenture",
+  "slug": "accenture",
+  "emoji": "🎯",
+  "difficulty": "Medium",
+  "description": "Consulting and technology services firm with a cognitive plus technical assessment.",
+  "pattern": [
+   "Cognitive and technical assessment: analytical, quantitative, verbal and abstract reasoning",
+   "Technical MCQs on CS fundamentals, networking, cloud and security",
+   "Coding section",
+   "Communication assessment, then interview",
+   "Commonly reported pattern. Patterns change every hiring season, so verify the latest on the official careers page."
+  ],
+  "papers": [
+   {
+    "title": "Accenture Cognitive & Technical Mock 1",
+    "difficulty": "Medium",
+    "durationMinutes": 30,
+    "passMark": 50,
+    "offset": 0,
+    "mix": {
+     "Quantitative Aptitude": 4,
+     "Logical Reasoning": 5,
+     "Computer Science": 6,
+     "SQL": 3,
+     "Programming": 3
+    }
+   },
+   {
+    "title": "Accenture Cognitive & Technical Mock 2",
+    "difficulty": "Medium",
+    "durationMinutes": 30,
+    "passMark": 50,
+    "offset": 2,
+    "mix": {
+     "Quantitative Aptitude": 4,
+     "Logical Reasoning": 4,
+     "Computer Science": 6,
+     "SQL": 4,
+     "Programming": 3
+    }
+   }
+  ]
+ },
+ {
+  "name": "Cognizant",
+  "slug": "cognizant",
+  "emoji": "🔷",
+  "difficulty": "Medium",
+  "description": "IT services company that hires freshers through its GenC programs.",
+  "pattern": [
+   "Online test: aptitude (quantitative, logical, verbal)",
+   "Technical MCQs and coding",
+   "Interview rounds",
+   "Commonly reported pattern. Patterns change every hiring season, so verify the latest on the official careers page."
+  ],
+  "papers": [
+   {
+    "title": "Cognizant GenC Style Mock 1",
+    "difficulty": "Medium",
+    "durationMinutes": 30,
+    "passMark": 50,
+    "offset": 0,
+    "mix": {
+     "Quantitative Aptitude": 5,
+     "Logical Reasoning": 5,
+     "Verbal Ability": 4,
+     "Computer Science": 4,
+     "Programming": 3
+    }
+   },
+   {
+    "title": "Cognizant GenC Style Mock 2",
+    "difficulty": "Medium",
+    "durationMinutes": 30,
+    "passMark": 50,
+    "offset": 3,
+    "mix": {
+     "Quantitative Aptitude": 5,
+     "Logical Reasoning": 4,
+     "Verbal Ability": 4,
+     "Computer Science": 5,
+     "Programming": 3
+    }
+   }
+  ]
+ },
+ {
+  "name": "Capgemini",
+  "slug": "capgemini",
+  "emoji": "🧩",
+  "difficulty": "Medium",
+  "description": "Consulting and technology company with an aptitude, pseudocode and communication assessment.",
+  "pattern": [
+   "Aptitude and game-based reasoning",
+   "Pseudocode and CS fundamentals",
+   "English communication assessment",
+   "Technical and HR interviews",
+   "Commonly reported pattern. Patterns change every hiring season, so verify the latest on the official careers page."
+  ],
+  "papers": [
+   {
+    "title": "Capgemini Assessment Mock 1",
+    "difficulty": "Medium",
+    "durationMinutes": 30,
+    "passMark": 50,
+    "offset": 0,
+    "mix": {
+     "Quantitative Aptitude": 4,
+     "Logical Reasoning": 5,
+     "Verbal Ability": 4,
+     "Programming": 5,
+     "Computer Science": 3
+    }
+   },
+   {
+    "title": "Capgemini Assessment Mock 2",
+    "difficulty": "Medium",
+    "durationMinutes": 30,
+    "passMark": 50,
+    "offset": 2,
+    "mix": {
+     "Quantitative Aptitude": 5,
+     "Logical Reasoning": 5,
+     "Verbal Ability": 3,
+     "Programming": 5,
+     "Computer Science": 3
+    }
+   }
+  ]
+ },
+ {
+  "name": "Deloitte",
+  "slug": "deloitte",
+  "emoji": "🟢",
+  "difficulty": "Medium",
+  "description": "Big-four consulting firm hiring analysts and engineers through online assessments and interviews.",
+  "pattern": [
+   "Online assessment: aptitude plus technical fundamentals",
+   "Technical interview on projects, SQL and CS basics",
+   "HR or managerial interview",
+   "Commonly reported pattern. Patterns change every hiring season, so verify the latest on the official careers page."
+  ],
+  "papers": [
+   {
+    "title": "Deloitte Analyst Mock 1",
+    "difficulty": "Medium",
+    "durationMinutes": 30,
+    "passMark": 50,
+    "offset": 0,
+    "mix": {
+     "Quantitative Aptitude": 5,
+     "Logical Reasoning": 4,
+     "Verbal Ability": 4,
+     "Computer Science": 4,
+     "SQL": 3
+    }
+   },
+   {
+    "title": "Deloitte Analyst Mock 2",
+    "difficulty": "Hard",
+    "durationMinutes": 30,
+    "passMark": 50,
+    "offset": 3,
+    "mix": {
+     "Quantitative Aptitude": 5,
+     "Logical Reasoning": 5,
+     "Verbal Ability": 3,
+     "Computer Science": 4,
+     "SQL": 3
+    }
+   }
+  ]
+ },
+ {
+  "name": "Aon",
+  "slug": "aon",
+  "emoji": "📊",
+  "difficulty": "Medium",
+  "description": "Professional services firm. Software roles in Assessment Solutions use C#/.NET, SQL Server and React.",
+  "pattern": [
+   "Online assessments testing coding and problem-solving",
+   "Technical interview: DSA, OOP, SQL and the role's stack (C#/.NET, React)",
+   "In-person HR / managerial interview for some roles",
+   "Based on a public job posting. Patterns change every hiring season, so verify the latest on the official careers page."
+  ],
+  "papers": [
+   {
+    "title": "Aon Software Engineer Mock 1",
+    "difficulty": "Medium",
+    "durationMinutes": 30,
+    "passMark": 50,
+    "offset": 0,
+    "mix": {
+     "Logical Reasoning": 4,
+     "Computer Science": 6,
+     "SQL": 5,
+     "Programming": 5,
+     "Quantitative Aptitude": 3
+    }
+   },
+   {
+    "title": "Aon Software Engineer Mock 2",
+    "difficulty": "Hard",
+    "durationMinutes": 30,
+    "passMark": 50,
+    "offset": 2,
+    "mix": {
+     "Logical Reasoning": 5,
+     "Computer Science": 6,
+     "SQL": 6,
+     "Programming": 5,
+     "Quantitative Aptitude": 2
+    }
+   }
+  ]
+ },
+ {
+  "name": "Amazon",
+  "slug": "amazon",
+  "emoji": "📦",
+  "difficulty": "Hard",
+  "description": "Heavy on data structures, algorithms and problem solving. Use the DSA practice section alongside these papers.",
+  "pattern": [
+   "Online assessment: coding problems on data structures and algorithms",
+   "Work-style / behavioural simulation",
+   "Technical interviews on DSA and problem solving",
+   "Behavioural interview based on Leadership Principles",
+   "Commonly reported pattern. Patterns change every hiring season, so verify the latest on the official careers page."
+  ],
+  "papers": [
+   {
+    "title": "Amazon OA Warm-up Mock 1",
+    "difficulty": "Hard",
+    "durationMinutes": 25,
+    "passMark": 60,
+    "offset": 0,
+    "mix": {
+     "Logical Reasoning": 6,
+     "Programming": 6,
+     "Computer Science": 6
+    }
+   },
+   {
+    "title": "Amazon OA Warm-up Mock 2",
+    "difficulty": "Hard",
+    "durationMinutes": 25,
+    "passMark": 60,
+    "offset": 1,
+    "mix": {
+     "Logical Reasoning": 5,
+     "Programming": 7,
+     "Computer Science": 6
+    }
+   }
+  ]
+ }
+]

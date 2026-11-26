@@ -1,0 +1,36 @@
+# Local development only: the passwords below are throwaway dev values.
+services:
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: preppilot-sql
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "Your_strong_Passw0rd"
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqldata:/var/opt/mssql
+    healthcheck:
+      test: ["CMD-SHELL", "/opt/mssql-tools18/bin/sqlcmd -C -S localhost -U sa -P \"$$MSSQL_SA_PASSWORD\" -Q \"SELECT 1\" || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
+
+  api:
+    build: .
+    container_name: preppilot-api
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings__PrepPilotDb: "Server=db,1433;Database=PrepPilotDb;User Id=sa;Password=Your_strong_Passw0rd;TrustServerCertificate=True;"
+      Database__AutoCreate: "true"
+      Database__Seed: "true"
+      Groq__ApiKey: "${GROQ_API_KEY:-}"
+    ports:
+      - "8080:8080"
+
+volumes:
+  sqldata:

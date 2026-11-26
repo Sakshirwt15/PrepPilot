@@ -1,0 +1,498 @@
+{
+ "Quantitative Aptitude": [
+  {
+   "text": "A shopkeeper sells an article at a 20% profit. If the cost price is ₹500, what is the selling price?",
+   "options": [
+    "₹550",
+    "₹600",
+    "₹620",
+    "₹650"
+   ],
+   "answer": 1,
+   "explanation": "SP = 500 × 1.20 = ₹600."
+  },
+  {
+   "text": "A train 150 m long passes a pole in 15 seconds. What is its speed in km/h?",
+   "options": [
+    "30",
+    "36",
+    "40",
+    "45"
+   ],
+   "answer": 1,
+   "explanation": "Speed = 150/15 = 10 m/s = 10 × 18/5 = 36 km/h."
+  },
+  {
+   "text": "A can finish a job in 12 days and B in 18 days. Working together, how many days will they take?",
+   "options": [
+    "6",
+    "7.2",
+    "8",
+    "7.5"
+   ],
+   "answer": 1,
+   "explanation": "Combined rate = 1/12 + 1/18 = 5/36 per day, so time = 36/5 = 7.2 days."
+  },
+  {
+   "text": "The average of five numbers is 24. If one number is removed, the average of the remaining four becomes 22. What number was removed?",
+   "options": [
+    "28",
+    "30",
+    "32",
+    "34"
+   ],
+   "answer": 2,
+   "explanation": "Total = 120, remaining total = 88, so the removed number is 120 − 88 = 32."
+  },
+  {
+   "text": "What is the simple interest on ₹8,000 at 5% per annum for 3 years?",
+   "options": [
+    "₹1,000",
+    "₹1,200",
+    "₹1,500",
+    "₹1,600"
+   ],
+   "answer": 1,
+   "explanation": "SI = P × R × T / 100 = 8000 × 5 × 3 / 100 = ₹1,200."
+  },
+  {
+   "text": "Two numbers are in the ratio 3:5 and their sum is 96. What is the larger number?",
+   "options": [
+    "36",
+    "48",
+    "60",
+    "64"
+   ],
+   "answer": 2,
+   "explanation": "Larger = 96 × 5/8 = 60."
+  },
+  {
+   "text": "The price of an item rises from ₹80 to ₹100. What is the percentage increase?",
+   "options": [
+    "20%",
+    "25%",
+    "30%",
+    "15%"
+   ],
+   "answer": 1,
+   "explanation": "Increase = 20 on a base of 80, so 20/80 × 100 = 25%."
+  },
+  {
+   "text": "A boat covers 24 km downstream in 2 hours and returns upstream in 3 hours. What is the speed of the current?",
+   "options": [
+    "1 km/h",
+    "2 km/h",
+    "3 km/h",
+    "4 km/h"
+   ],
+   "answer": 1,
+   "explanation": "Downstream = 12 km/h, upstream = 8 km/h. Current = (12 − 8)/2 = 2 km/h."
+  }
+ ],
+ "Logical Reasoning": [
+  {
+   "text": "Find the next number: 2, 6, 12, 20, 30, ?",
+   "options": [
+    "40",
+    "42",
+    "44",
+    "46"
+   ],
+   "answer": 1,
+   "explanation": "Differences are 4, 6, 8, 10, so the next difference is 12 and the number is 42."
+  },
+  {
+   "text": "Find the odd one out: 5, 7, 9, 11",
+   "options": [
+    "5",
+    "7",
+    "9",
+    "11"
+   ],
+   "answer": 2,
+   "explanation": "5, 7 and 11 are prime; 9 is not."
+  },
+  {
+   "text": "If CAT is coded as DBU, how is DOG coded?",
+   "options": [
+    "EPH",
+    "DPH",
+    "EOH",
+    "FPH"
+   ],
+   "answer": 0,
+   "explanation": "Each letter moves one step forward: D→E, O→P, G→H."
+  },
+  {
+   "text": "Pointing to a photograph, Riya says, 'He is the son of my mother's only brother.' How is the man related to Riya?",
+   "options": [
+    "Brother",
+    "Cousin",
+    "Uncle",
+    "Nephew"
+   ],
+   "answer": 1,
+   "explanation": "Mother's brother's son is Riya's maternal cousin."
+  },
+  {
+   "text": "A man walks 5 km north, then 3 km east, then 5 km south. How far is he from the starting point?",
+   "options": [
+    "3 km",
+    "5 km",
+    "8 km",
+    "13 km"
+   ],
+   "answer": 0,
+   "explanation": "North and south cancel out, leaving 3 km east."
+  },
+  {
+   "text": "Statements: All engineers are graduates. Some graduates are artists. Conclusions: I. Some engineers are artists. II. All engineers are graduates.",
+   "options": [
+    "Only I follows",
+    "Only II follows",
+    "Both follow",
+    "Neither follows"
+   ],
+   "answer": 1,
+   "explanation": "II is given directly. I does not necessarily follow, because the graduates who are artists may not be engineers."
+  },
+  {
+   "text": "Find the missing number: 1, 4, 9, 16, ?, 36",
+   "options": [
+    "20",
+    "24",
+    "25",
+    "30"
+   ],
+   "answer": 2,
+   "explanation": "These are squares: 1², 2², 3², 4², 5² = 25, 6² = 36."
+  },
+  {
+   "text": "What is the angle between the hands of a clock at 3:00?",
+   "options": [
+    "60°",
+    "90°",
+    "120°",
+    "180°"
+   ],
+   "answer": 1,
+   "explanation": "The hour hand is at 3 and the minute hand at 12, which is 3 × 30° = 90°."
+  }
+ ],
+ "Verbal Ability": [
+  {
+   "text": "Choose the synonym of 'Abundant'.",
+   "options": [
+    "Scarce",
+    "Plentiful",
+    "Rare",
+    "Meagre"
+   ],
+   "answer": 1,
+   "explanation": "Abundant means existing in large quantities, so plentiful."
+  },
+  {
+   "text": "Choose the antonym of 'Benevolent'.",
+   "options": [
+    "Kind",
+    "Generous",
+    "Malevolent",
+    "Charitable"
+   ],
+   "answer": 2,
+   "explanation": "Benevolent means well-meaning and kind; malevolent means wishing harm."
+  },
+  {
+   "text": "Choose the grammatically correct sentence.",
+   "options": [
+    "She don't like coffee.",
+    "She doesn't likes coffee.",
+    "She doesn't like coffee.",
+    "She not like coffee."
+   ],
+   "answer": 2,
+   "explanation": "With a third-person singular subject, use 'doesn't' followed by the base verb 'like'."
+  },
+  {
+   "text": "One word for 'a person who can speak two languages fluently':",
+   "options": [
+    "Bilingual",
+    "Polyglot",
+    "Linguist",
+    "Interpreter"
+   ],
+   "answer": 0,
+   "explanation": "Bilingual means two languages. A polyglot knows many."
+  },
+  {
+   "text": "Fill in the blank: He has been working here ____ 2019.",
+   "options": [
+    "for",
+    "since",
+    "from",
+    "during"
+   ],
+   "answer": 1,
+   "explanation": "'Since' is used with a point in time (2019); 'for' is used with a duration."
+  },
+  {
+   "text": "'To break the ice' means:",
+   "options": [
+    "To start a conversation in an awkward situation",
+    "To damage something",
+    "To feel very cold",
+    "To end a friendship"
+   ],
+   "answer": 0,
+   "explanation": "It is an idiom for easing initial social tension."
+  },
+  {
+   "text": "Choose the correctly spelled word.",
+   "options": [
+    "Accomodate",
+    "Accommodate",
+    "Acommodate",
+    "Accomodete"
+   ],
+   "answer": 1,
+   "explanation": "Accommodate has double 'c' and double 'm'."
+  }
+ ],
+ "Computer Science": [
+  {
+   "text": "Which data structure follows LIFO order?",
+   "options": [
+    "Queue",
+    "Stack",
+    "Array",
+    "Heap"
+   ],
+   "answer": 1,
+   "explanation": "A stack removes the most recently added element first."
+  },
+  {
+   "text": "What is the time complexity of binary search on a sorted array of n elements?",
+   "options": [
+    "O(n)",
+    "O(log n)",
+    "O(n log n)",
+    "O(1)"
+   ],
+   "answer": 1,
+   "explanation": "Each step halves the search space."
+  },
+  {
+   "text": "Which normal form removes partial dependencies?",
+   "options": [
+    "1NF",
+    "2NF",
+    "3NF",
+    "BCNF"
+   ],
+   "answer": 1,
+   "explanation": "2NF requires that no non-key attribute depends on part of a composite key."
+  },
+  {
+   "text": "Which CPU scheduling algorithm can cause starvation of long processes?",
+   "options": [
+    "FCFS",
+    "Round Robin",
+    "Shortest Job First",
+    "None of these"
+   ],
+   "answer": 2,
+   "explanation": "If short jobs keep arriving, long jobs may wait indefinitely under SJF."
+  },
+  {
+   "text": "Which layer of the OSI model is responsible for routing packets?",
+   "options": [
+    "Data Link",
+    "Network",
+    "Transport",
+    "Session"
+   ],
+   "answer": 1,
+   "explanation": "The Network layer (IP) handles logical addressing and routing."
+  },
+  {
+   "text": "Which OOP concept lets the same method call behave differently depending on the object's actual class?",
+   "options": [
+    "Encapsulation",
+    "Polymorphism",
+    "Abstraction",
+    "Composition"
+   ],
+   "answer": 1,
+   "explanation": "Runtime polymorphism (method overriding) resolves the method by the object's real type."
+  },
+  {
+   "text": "What is the worst-case time complexity of QuickSort?",
+   "options": [
+    "O(n log n)",
+    "O(n)",
+    "O(n²)",
+    "O(log n)"
+   ],
+   "answer": 2,
+   "explanation": "A consistently bad pivot gives O(n²)."
+  },
+  {
+   "text": "Which statement about a primary key is FALSE?",
+   "options": [
+    "It uniquely identifies each row",
+    "It cannot be NULL",
+    "It can contain duplicate values",
+    "A table can have only one"
+   ],
+   "answer": 2,
+   "explanation": "Primary key values must be unique."
+  }
+ ],
+ "SQL": [
+  {
+   "text": "Which clause filters groups after GROUP BY?",
+   "options": [
+    "WHERE",
+    "HAVING",
+    "ORDER BY",
+    "LIMIT"
+   ],
+   "answer": 1,
+   "explanation": "WHERE filters rows before grouping; HAVING filters groups."
+  },
+  {
+   "text": "Which join returns all rows from the left table and the matching rows from the right table?",
+   "options": [
+    "INNER JOIN",
+    "LEFT JOIN",
+    "RIGHT JOIN",
+    "CROSS JOIN"
+   ],
+   "answer": 1,
+   "explanation": "LEFT JOIN keeps every left row, using NULLs where there is no match."
+  },
+  {
+   "text": "What does SELECT COUNT(*) return?",
+   "options": [
+    "Number of columns",
+    "Number of rows",
+    "Sum of values",
+    "Number of distinct values"
+   ],
+   "answer": 1,
+   "explanation": "COUNT(*) counts rows."
+  },
+  {
+   "text": "Which keyword removes duplicate rows from a result set?",
+   "options": [
+    "UNIQUE",
+    "DISTINCT",
+    "REMOVE",
+    "DIFFERENT"
+   ],
+   "answer": 1,
+   "explanation": "SELECT DISTINCT returns unique rows."
+  },
+  {
+   "text": "Which statement quickly removes all rows from a table but keeps its structure?",
+   "options": [
+    "DROP TABLE",
+    "DELETE",
+    "TRUNCATE TABLE",
+    "REMOVE"
+   ],
+   "answer": 2,
+   "explanation": "TRUNCATE removes all rows and keeps the table definition."
+  },
+  {
+   "text": "A column Marks has the values 10, 20, NULL, 30. What does AVG(Marks) return?",
+   "options": [
+    "15",
+    "20",
+    "30",
+    "NULL"
+   ],
+   "answer": 1,
+   "explanation": "AVG ignores NULLs: (10 + 20 + 30) / 3 = 20."
+  }
+ ],
+ "Programming": [
+  {
+   "text": "What is the output?\n\nx = [1, 2, 3]\ny = x\ny.append(4)\nprint(len(x))",
+   "options": [
+    "3",
+    "4",
+    "1",
+    "Error"
+   ],
+   "answer": 1,
+   "explanation": "y and x refer to the same list, so appending through y changes x."
+  },
+  {
+   "text": "What is the output of the Python statement?\n\nprint(10 // 3, 10 % 3)",
+   "options": [
+    "3 1",
+    "3.33 1",
+    "3 3",
+    "1 3"
+   ],
+   "answer": 0,
+   "explanation": "// is floor division (3) and % is the remainder (1)."
+  },
+  {
+   "text": "What is the output?\n\ndef f(n):\n    return 1 if n <= 1 else n * f(n - 1)\nprint(f(5))",
+   "options": [
+    "25",
+    "120",
+    "60",
+    "24"
+   ],
+   "answer": 1,
+   "explanation": "f(5) = 5! = 120."
+  },
+  {
+   "text": "What is the output?\n\nprint('ab' * 3 + 'c')",
+   "options": [
+    "ababc",
+    "abababc",
+    "ab3c",
+    "Error"
+   ],
+   "answer": 1,
+   "explanation": "'ab' * 3 is 'ababab'; adding 'c' gives 'abababc'."
+  },
+  {
+   "text": "What is the output?\n\nnums = [1, 2, 3, 4, 5]\nprint(nums[1:4])",
+   "options": [
+    "[1, 2, 3]",
+    "[2, 3, 4]",
+    "[2, 3, 4, 5]",
+    "[1, 2, 3, 4]"
+   ],
+   "answer": 1,
+   "explanation": "Slicing [1:4] takes indexes 1, 2 and 3."
+  },
+  {
+   "text": "How many times does the loop body run?\n\ncount = 0\nfor (i = 1; i <= 10; i += 3)\n    count++",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "10"
+   ],
+   "answer": 1,
+   "explanation": "i takes the values 1, 4, 7, 10, so the body runs 4 times."
+  },
+  {
+   "text": "What is the output?\n\nprint(bool([]), bool([0]))",
+   "options": [
+    "False True",
+    "True True",
+    "False False",
+    "True False"
+   ],
+   "answer": 0,
+   "explanation": "An empty list is falsy; a non-empty list is truthy even if it contains 0."
+  }
+ ]
+}

@@ -1,0 +1,1125 @@
+[
+ {
+  "title": "Two Sum",
+  "slug": "two-sum",
+  "difficulty": "Easy",
+  "topics": "Arrays,Hash Table",
+  "companies": "Amazon,TCS,Infosys,Accenture",
+  "description": "Given an array of integers `nums` and an integer `target`, return the indices of the two numbers that add up to `target`.\n\nEach input has exactly one solution and you may not use the same element twice. Return the two indices in ascending order.",
+  "constraints": "2 <= nums.length <= 10^4\n-10^9 <= nums[i], target <= 10^9\nExactly one valid answer exists.",
+  "examples": "Input: nums = [2,7,11,15], target = 9\nOutput: [0,1]\nExplanation: nums[0] + nums[1] = 9.",
+  "functionName": "twoSum",
+  "starterCode": "function twoSum(nums, target) {\n  // Return the two indices in ascending order\n\n}\n",
+  "testCases": [
+   {
+    "input": [
+     [
+      2,
+      7,
+      11,
+      15
+     ],
+     9
+    ],
+    "expected": [
+     0,
+     1
+    ]
+   },
+   {
+    "input": [
+     [
+      3,
+      2,
+      4
+     ],
+     6
+    ],
+    "expected": [
+     1,
+     2
+    ]
+   },
+   {
+    "input": [
+     [
+      3,
+      3
+     ],
+     6
+    ],
+    "expected": [
+     0,
+     1
+    ]
+   },
+   {
+    "input": [
+     [
+      1,
+      5,
+      3,
+      8,
+      12
+     ],
+     20
+    ],
+    "expected": [
+     3,
+     4
+    ]
+   },
+   {
+    "input": [
+     [
+      -1,
+      -2,
+      -3,
+      -4,
+      -5
+     ],
+     -8
+    ],
+    "expected": [
+     2,
+     4
+    ]
+   },
+   {
+    "input": [
+     [
+      0,
+      4,
+      3,
+      0
+     ],
+     0
+    ],
+    "expected": [
+     0,
+     3
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Valid Parentheses",
+  "slug": "valid-parentheses",
+  "difficulty": "Easy",
+  "topics": "Stack,Strings",
+  "companies": "Amazon,Wipro,Cognizant,Capgemini",
+  "description": "Given a string `s` containing only the characters ()[]{} determine whether the input string is valid.\n\nA string is valid if every open bracket is closed by the same type of bracket, and in the correct order.",
+  "constraints": "1 <= s.length <= 10^4\ns consists only of ()[]{}",
+  "examples": "Input: s = \"()[]{}\"\nOutput: true\n\nInput: s = \"(]\"\nOutput: false",
+  "functionName": "isValid",
+  "starterCode": "function isValid(s) {\n\n}\n",
+  "testCases": [
+   {
+    "input": [
+     "()"
+    ],
+    "expected": true
+   },
+   {
+    "input": [
+     "()[]{}"
+    ],
+    "expected": true
+   },
+   {
+    "input": [
+     "(]"
+    ],
+    "expected": false
+   },
+   {
+    "input": [
+     "([)]"
+    ],
+    "expected": false
+   },
+   {
+    "input": [
+     "{[]}"
+    ],
+    "expected": true
+   },
+   {
+    "input": [
+     "((("
+    ],
+    "expected": false
+   },
+   {
+    "input": [
+     "]"
+    ],
+    "expected": false
+   }
+  ]
+ },
+ {
+  "title": "Best Time to Buy and Sell Stock",
+  "slug": "best-time-to-buy-and-sell-stock",
+  "difficulty": "Easy",
+  "topics": "Arrays,Greedy",
+  "companies": "Amazon,Deloitte,Infosys",
+  "description": "You are given an array `prices` where prices[i] is the price of a stock on day i.\n\nChoose one day to buy and a later day to sell to maximise profit. Return the maximum profit, or 0 if no profit is possible.",
+  "constraints": "1 <= prices.length <= 10^5\n0 <= prices[i] <= 10^4",
+  "examples": "Input: prices = [7,1,5,3,6,4]\nOutput: 5\nExplanation: Buy at 1, sell at 6.",
+  "functionName": "maxProfit",
+  "starterCode": "function maxProfit(prices) {\n\n}\n",
+  "testCases": [
+   {
+    "input": [
+     [
+      7,
+      1,
+      5,
+      3,
+      6,
+      4
+     ]
+    ],
+    "expected": 5
+   },
+   {
+    "input": [
+     [
+      7,
+      6,
+      4,
+      3,
+      1
+     ]
+    ],
+    "expected": 0
+   },
+   {
+    "input": [
+     [
+      1,
+      2
+     ]
+    ],
+    "expected": 1
+   },
+   {
+    "input": [
+     [
+      2,
+      4,
+      1
+     ]
+    ],
+    "expected": 2
+   },
+   {
+    "input": [
+     [
+      3,
+      3,
+      3
+     ]
+    ],
+    "expected": 0
+   },
+   {
+    "input": [
+     [
+      1,
+      2,
+      3,
+      4,
+      5
+     ]
+    ],
+    "expected": 4
+   }
+  ]
+ },
+ {
+  "title": "Contains Duplicate",
+  "slug": "contains-duplicate",
+  "difficulty": "Easy",
+  "topics": "Arrays,Hash Table",
+  "companies": "Aon,TCS,Wipro",
+  "description": "Given an integer array `nums`, return true if any value appears at least twice, and false if every element is distinct.",
+  "constraints": "1 <= nums.length <= 10^5\n-10^9 <= nums[i] <= 10^9",
+  "examples": "Input: nums = [1,2,3,1]\nOutput: true",
+  "functionName": "containsDuplicate",
+  "starterCode": "function containsDuplicate(nums) {\n\n}\n",
+  "testCases": [
+   {
+    "input": [
+     [
+      1,
+      2,
+      3,
+      1
+     ]
+    ],
+    "expected": true
+   },
+   {
+    "input": [
+     [
+      1,
+      2,
+      3,
+      4
+     ]
+    ],
+    "expected": false
+   },
+   {
+    "input": [
+     [
+      1,
+      1,
+      1,
+      3,
+      3,
+      4,
+      3,
+      2,
+      4,
+      2
+     ]
+    ],
+    "expected": true
+   },
+   {
+    "input": [
+     [
+      5
+     ]
+    ],
+    "expected": false
+   },
+   {
+    "input": [
+     [
+      -1,
+      -1
+     ]
+    ],
+    "expected": true
+   }
+  ]
+ },
+ {
+  "title": "Valid Anagram",
+  "slug": "valid-anagram",
+  "difficulty": "Easy",
+  "topics": "Strings,Hash Table,Sorting",
+  "companies": "Cognizant,Capgemini,Accenture",
+  "description": "Given two strings `s` and `t`, return true if `t` is an anagram of `s`, and false otherwise.\n\nAn anagram uses all the original letters exactly once.",
+  "constraints": "1 <= s.length, t.length <= 5 * 10^4\ns and t consist of lowercase English letters",
+  "examples": "Input: s = \"anagram\", t = \"nagaram\"\nOutput: true",
+  "functionName": "isAnagram",
+  "starterCode": "function isAnagram(s, t) {\n\n}\n",
+  "testCases": [
+   {
+    "input": [
+     "anagram",
+     "nagaram"
+    ],
+    "expected": true
+   },
+   {
+    "input": [
+     "rat",
+     "car"
+    ],
+    "expected": false
+   },
+   {
+    "input": [
+     "a",
+     "a"
+    ],
+    "expected": true
+   },
+   {
+    "input": [
+     "ab",
+     "a"
+    ],
+    "expected": false
+   },
+   {
+    "input": [
+     "listen",
+     "silent"
+    ],
+    "expected": true
+   }
+  ]
+ },
+ {
+  "title": "Binary Search",
+  "slug": "binary-search",
+  "difficulty": "Easy",
+  "topics": "Binary Search,Arrays",
+  "companies": "Infosys,TCS,Aon",
+  "description": "Given a sorted array of distinct integers `nums` and an integer `target`, return the index of `target` or -1 if it does not exist.\n\nYour algorithm must run in O(log n) time.",
+  "constraints": "1 <= nums.length <= 10^4\nAll values are distinct and sorted ascending.",
+  "examples": "Input: nums = [-1,0,3,5,9,12], target = 9\nOutput: 4",
+  "functionName": "search",
+  "starterCode": "function search(nums, target) {\n\n}\n",
+  "testCases": [
+   {
+    "input": [
+     [
+      -1,
+      0,
+      3,
+      5,
+      9,
+      12
+     ],
+     9
+    ],
+    "expected": 4
+   },
+   {
+    "input": [
+     [
+      -1,
+      0,
+      3,
+      5,
+      9,
+      12
+     ],
+     2
+    ],
+    "expected": -1
+   },
+   {
+    "input": [
+     [
+      5
+     ],
+     5
+    ],
+    "expected": 0
+   },
+   {
+    "input": [
+     [
+      1,
+      3,
+      5,
+      7
+     ],
+     7
+    ],
+    "expected": 3
+   },
+   {
+    "input": [
+     [
+      1,
+      3,
+      5,
+      7
+     ],
+     1
+    ],
+    "expected": 0
+   },
+   {
+    "input": [
+     [
+      2,
+      4
+     ],
+     3
+    ],
+    "expected": -1
+   }
+  ]
+ },
+ {
+  "title": "Climbing Stairs",
+  "slug": "climbing-stairs",
+  "difficulty": "Easy",
+  "topics": "Dynamic Programming,Math",
+  "companies": "Amazon,Wipro,Capgemini",
+  "description": "You are climbing a staircase with `n` steps. Each time you can climb 1 or 2 steps. In how many distinct ways can you reach the top?",
+  "constraints": "1 <= n <= 45",
+  "examples": "Input: n = 3\nOutput: 3\nExplanation: 1+1+1, 1+2, 2+1.",
+  "functionName": "climbStairs",
+  "starterCode": "function climbStairs(n) {\n\n}\n",
+  "testCases": [
+   {
+    "input": [
+     1
+    ],
+    "expected": 1
+   },
+   {
+    "input": [
+     2
+    ],
+    "expected": 2
+   },
+   {
+    "input": [
+     3
+    ],
+    "expected": 3
+   },
+   {
+    "input": [
+     5
+    ],
+    "expected": 8
+   },
+   {
+    "input": [
+     10
+    ],
+    "expected": 89
+   },
+   {
+    "input": [
+     30
+    ],
+    "expected": 1346269
+   }
+  ]
+ },
+ {
+  "title": "Move Zeroes",
+  "slug": "move-zeroes",
+  "difficulty": "Easy",
+  "topics": "Arrays,Two Pointers",
+  "companies": "TCS,Cognizant,Aon",
+  "description": "Given an integer array `nums`, move all 0s to the end while keeping the relative order of the non-zero elements.\n\nReturn the resulting array.",
+  "constraints": "1 <= nums.length <= 10^4",
+  "examples": "Input: nums = [0,1,0,3,12]\nOutput: [1,3,12,0,0]",
+  "functionName": "moveZeroes",
+  "starterCode": "function moveZeroes(nums) {\n  // Return the array with zeroes moved to the end\n\n}\n",
+  "testCases": [
+   {
+    "input": [
+     [
+      0,
+      1,
+      0,
+      3,
+      12
+     ]
+    ],
+    "expected": [
+     1,
+     3,
+     12,
+     0,
+     0
+    ]
+   },
+   {
+    "input": [
+     [
+      0
+     ]
+    ],
+    "expected": [
+     0
+    ]
+   },
+   {
+    "input": [
+     [
+      1,
+      2,
+      3
+     ]
+    ],
+    "expected": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "input": [
+     [
+      0,
+      0,
+      1
+     ]
+    ],
+    "expected": [
+     1,
+     0,
+     0
+    ]
+   },
+   {
+    "input": [
+     [
+      4,
+      0,
+      5,
+      0,
+      6
+     ]
+    ],
+    "expected": [
+     4,
+     5,
+     6,
+     0,
+     0
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Longest Common Prefix",
+  "slug": "longest-common-prefix",
+  "difficulty": "Easy",
+  "topics": "Strings",
+  "companies": "Wipro,Infosys,Deloitte",
+  "description": "Write a function to find the longest common prefix string among an array of strings. If there is none, return an empty string.",
+  "constraints": "1 <= strs.length <= 200\n0 <= strs[i].length <= 200",
+  "examples": "Input: strs = [\"flower\",\"flow\",\"flight\"]\nOutput: \"fl\"",
+  "functionName": "longestCommonPrefix",
+  "starterCode": "function longestCommonPrefix(strs) {\n\n}\n",
+  "testCases": [
+   {
+    "input": [
+     [
+      "flower",
+      "flow",
+      "flight"
+     ]
+    ],
+    "expected": "fl"
+   },
+   {
+    "input": [
+     [
+      "dog",
+      "racecar",
+      "car"
+     ]
+    ],
+    "expected": ""
+   },
+   {
+    "input": [
+     [
+      "a"
+     ]
+    ],
+    "expected": "a"
+   },
+   {
+    "input": [
+     [
+      "interview",
+      "internet",
+      "interval"
+     ]
+    ],
+    "expected": "inter"
+   },
+   {
+    "input": [
+     [
+      "same",
+      "same"
+     ]
+    ],
+    "expected": "same"
+   }
+  ]
+ },
+ {
+  "title": "Maximum Subarray",
+  "slug": "maximum-subarray",
+  "difficulty": "Medium",
+  "topics": "Arrays,Dynamic Programming",
+  "companies": "Amazon,Accenture,Aon",
+  "description": "Given an integer array `nums`, find the contiguous subarray (containing at least one number) with the largest sum and return that sum.",
+  "constraints": "1 <= nums.length <= 10^5\n-10^4 <= nums[i] <= 10^4",
+  "examples": "Input: nums = [-2,1,-3,4,-1,2,1,-5,4]\nOutput: 6\nExplanation: [4,-1,2,1] has the largest sum.",
+  "functionName": "maxSubArray",
+  "starterCode": "function maxSubArray(nums) {\n\n}\n",
+  "testCases": [
+   {
+    "input": [
+     [
+      -2,
+      1,
+      -3,
+      4,
+      -1,
+      2,
+      1,
+      -5,
+      4
+     ]
+    ],
+    "expected": 6
+   },
+   {
+    "input": [
+     [
+      1
+     ]
+    ],
+    "expected": 1
+   },
+   {
+    "input": [
+     [
+      5,
+      4,
+      -1,
+      7,
+      8
+     ]
+    ],
+    "expected": 23
+   },
+   {
+    "input": [
+     [
+      -3,
+      -2,
+      -1
+     ]
+    ],
+    "expected": -1
+   },
+   {
+    "input": [
+     [
+      -2,
+      -1
+     ]
+    ],
+    "expected": -1
+   }
+  ]
+ },
+ {
+  "title": "Merge Intervals",
+  "slug": "merge-intervals",
+  "difficulty": "Medium",
+  "topics": "Arrays,Sorting,Intervals",
+  "companies": "Amazon,Deloitte",
+  "description": "Given an array of `intervals` where intervals[i] = [start, end], merge all overlapping intervals and return the non-overlapping intervals sorted by start.",
+  "constraints": "1 <= intervals.length <= 10^4\n0 <= start <= end <= 10^4",
+  "examples": "Input: intervals = [[1,3],[2,6],[8,10],[15,18]]\nOutput: [[1,6],[8,10],[15,18]]",
+  "functionName": "merge",
+  "starterCode": "function merge(intervals) {\n\n}\n",
+  "testCases": [
+   {
+    "input": [
+     [
+      [
+       1,
+       3
+      ],
+      [
+       2,
+       6
+      ],
+      [
+       8,
+       10
+      ],
+      [
+       15,
+       18
+      ]
+     ]
+    ],
+    "expected": [
+     [
+      1,
+      6
+     ],
+     [
+      8,
+      10
+     ],
+     [
+      15,
+      18
+     ]
+    ]
+   },
+   {
+    "input": [
+     [
+      [
+       1,
+       4
+      ],
+      [
+       4,
+       5
+      ]
+     ]
+    ],
+    "expected": [
+     [
+      1,
+      5
+     ]
+    ]
+   },
+   {
+    "input": [
+     [
+      [
+       1,
+       4
+      ],
+      [
+       0,
+       4
+      ]
+     ]
+    ],
+    "expected": [
+     [
+      0,
+      4
+     ]
+    ]
+   },
+   {
+    "input": [
+     [
+      [
+       1,
+       4
+      ],
+      [
+       2,
+       3
+      ]
+     ]
+    ],
+    "expected": [
+     [
+      1,
+      4
+     ]
+    ]
+   },
+   {
+    "input": [
+     [
+      [
+       5,
+       6
+      ],
+      [
+       1,
+       2
+      ]
+     ]
+    ],
+    "expected": [
+     [
+      1,
+      2
+     ],
+     [
+      5,
+      6
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Longest Substring Without Repeating Characters",
+  "slug": "longest-substring-without-repeating-characters",
+  "difficulty": "Medium",
+  "topics": "Strings,Sliding Window,Hash Table",
+  "companies": "Amazon,Infosys,Aon",
+  "description": "Given a string `s`, find the length of the longest substring without repeating characters.",
+  "constraints": "0 <= s.length <= 5 * 10^4",
+  "examples": "Input: s = \"abcabcbb\"\nOutput: 3\nExplanation: \"abc\" has length 3.",
+  "functionName": "lengthOfLongestSubstring",
+  "starterCode": "function lengthOfLongestSubstring(s) {\n\n}\n",
+  "testCases": [
+   {
+    "input": [
+     "abcabcbb"
+    ],
+    "expected": 3
+   },
+   {
+    "input": [
+     "bbbbb"
+    ],
+    "expected": 1
+   },
+   {
+    "input": [
+     "pwwkew"
+    ],
+    "expected": 3
+   },
+   {
+    "input": [
+     ""
+    ],
+    "expected": 0
+   },
+   {
+    "input": [
+     "dvdf"
+    ],
+    "expected": 3
+   },
+   {
+    "input": [
+     "abba"
+    ],
+    "expected": 2
+   }
+  ]
+ },
+ {
+  "title": "Product of Array Except Self",
+  "slug": "product-of-array-except-self",
+  "difficulty": "Medium",
+  "topics": "Arrays,Prefix Sum",
+  "companies": "Amazon,Accenture",
+  "description": "Given an integer array `nums`, return an array `answer` where answer[i] is the product of all elements of `nums` except nums[i].\n\nSolve it in O(n) time without using division.",
+  "constraints": "2 <= nums.length <= 10^5\n-30 <= nums[i] <= 30",
+  "examples": "Input: nums = [1,2,3,4]\nOutput: [24,12,8,6]",
+  "functionName": "productExceptSelf",
+  "starterCode": "function productExceptSelf(nums) {\n\n}\n",
+  "testCases": [
+   {
+    "input": [
+     [
+      1,
+      2,
+      3,
+      4
+     ]
+    ],
+    "expected": [
+     24,
+     12,
+     8,
+     6
+    ]
+   },
+   {
+    "input": [
+     [
+      -1,
+      1,
+      0,
+      -3,
+      3
+     ]
+    ],
+    "expected": [
+     0,
+     0,
+     9,
+     0,
+     0
+    ]
+   },
+   {
+    "input": [
+     [
+      2,
+      3
+     ]
+    ],
+    "expected": [
+     3,
+     2
+    ]
+   },
+   {
+    "input": [
+     [
+      1,
+      1,
+      1
+     ]
+    ],
+    "expected": [
+     1,
+     1,
+     1
+    ]
+   },
+   {
+    "input": [
+     [
+      0,
+      0
+     ]
+    ],
+    "expected": [
+     0,
+     0
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Coin Change",
+  "slug": "coin-change",
+  "difficulty": "Medium",
+  "topics": "Dynamic Programming",
+  "companies": "Amazon,Cognizant",
+  "description": "You are given an array `coins` of coin denominations and an integer `amount`.\n\nReturn the fewest number of coins needed to make up that amount, or -1 if it cannot be made. You have an unlimited supply of each coin.",
+  "constraints": "1 <= coins.length <= 12\n0 <= amount <= 10^4",
+  "examples": "Input: coins = [1,2,5], amount = 11\nOutput: 3\nExplanation: 5 + 5 + 1.",
+  "functionName": "coinChange",
+  "starterCode": "function coinChange(coins, amount) {\n\n}\n",
+  "testCases": [
+   {
+    "input": [
+     [
+      1,
+      2,
+      5
+     ],
+     11
+    ],
+    "expected": 3
+   },
+   {
+    "input": [
+     [
+      2
+     ],
+     3
+    ],
+    "expected": -1
+   },
+   {
+    "input": [
+     [
+      1
+     ],
+     0
+    ],
+    "expected": 0
+   },
+   {
+    "input": [
+     [
+      1,
+      3,
+      4
+     ],
+     6
+    ],
+    "expected": 2
+   },
+   {
+    "input": [
+     [
+      186,
+      419,
+      83,
+      408
+     ],
+     6249
+    ],
+    "expected": 20
+   }
+  ]
+ },
+ {
+  "title": "Trapping Rain Water",
+  "slug": "trapping-rain-water",
+  "difficulty": "Hard",
+  "topics": "Arrays,Two Pointers,Dynamic Programming",
+  "companies": "Amazon,Deloitte",
+  "description": "Given `n` non-negative integers representing an elevation map where each bar has width 1, compute how much water it can trap after raining.",
+  "constraints": "1 <= n <= 2 * 10^4\n0 <= height[i] <= 10^5",
+  "examples": "Input: height = [0,1,0,2,1,0,1,3,2,1,2,1]\nOutput: 6",
+  "functionName": "trap",
+  "starterCode": "function trap(height) {\n\n}\n",
+  "testCases": [
+   {
+    "input": [
+     [
+      0,
+      1,
+      0,
+      2,
+      1,
+      0,
+      1,
+      3,
+      2,
+      1,
+      2,
+      1
+     ]
+    ],
+    "expected": 6
+   },
+   {
+    "input": [
+     [
+      4,
+      2,
+      0,
+      3,
+      2,
+      5
+     ]
+    ],
+    "expected": 9
+   },
+   {
+    "input": [
+     [
+      1,
+      2,
+      3
+     ]
+    ],
+    "expected": 0
+   },
+   {
+    "input": [
+     [
+      3,
+      0,
+      3
+     ]
+    ],
+    "expected": 3
+   },
+   {
+    "input": [
+     [
+      2,
+      0,
+      2
+     ]
+    ],
+    "expected": 2
+   }
+  ]
+ }
+]
