@@ -13,7 +13,7 @@ public static class DependencyInjection
         this IServiceCollection services, string connectionString, string aiProvider = "Groq")
     {
         services.AddDbContext<AppDbContext>(options =>
-            options.UseSqlServer(connectionString, sql => sql.EnableRetryOnFailure()));
+            options.UseNpgsql(connectionString, npgsql => npgsql.EnableRetryOnFailure()));
 
         services.AddScoped<IUnitOfWork>(sp => sp.GetRequiredService<AppDbContext>());
         services.AddScoped<IUserRepository, UserRepository>();
